@@ -9,7 +9,7 @@ public class ExampleColorCompEditor : Editor
 {
     SerializedProperty myExColorProp;
     SerializedProperty myStrProp;
-    //SerializedProperty nonValueProp;
+
     void doLog2(string str)
     {
         using (StreamWriter w = File.AppendText("log.txt"))
@@ -37,7 +37,6 @@ public class ExampleColorCompEditor : Editor
     void OnEnable()
     {
         // Setup the SerializedProperties.
-        //nonValueProp = serializedObject.FindProperty("nonValue");
         myExColorProp = serializedObject.FindProperty("myExColor");
         myStrProp = serializedObject.FindProperty("enumName");
         refreshEnum();

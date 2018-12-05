@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class ColorExampleScript : StateMachineBehaviour {
     public ExampleColor excolor = ExampleColor.blue;
+    [HideInInspector]
     public string colorName = "blue";
 }

@@ -11,6 +11,7 @@ public enum ExampleColor : uint
 
 public class ExampleColorComp : MonoBehaviour {
     public float nonValue = 0;
+    [HideInInspector]
     public string enumName = "";
     public ExampleColor myExColor = ExampleColor.blue;
 	// Use this for initialization
