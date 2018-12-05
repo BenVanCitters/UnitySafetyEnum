@@ -12,14 +12,13 @@ public class ExampleColorCompEditor : Editor
 
     void doLog2(string str)
     {
+        String logstr = String.Format("\r\nLog : {0} {1} : {2}", DateTime.Now.ToLongTimeString(), DateTime.Now.ToLongDateString(), str);
         using (StreamWriter w = File.AppendText("log.txt"))
         {
-            w.WriteLine(str);
+            w.Write(logstr);
         }
-        Console.WriteLine(str);
-
-        Debug.Log(str);
-
+        Console.WriteLine(logstr);
+        Debug.Log(logstr);
     }
 
 

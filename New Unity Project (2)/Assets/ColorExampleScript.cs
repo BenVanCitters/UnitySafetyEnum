@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorExampleScript : StateMachineBehaviour {
-    public ExampleColor excolor = ExampleColor.blue;
+    public ExampleColor myExColor = ExampleColor.blue;
     [HideInInspector]
-    public string colorName = "blue";
+    public string enumName = "blue";
 }

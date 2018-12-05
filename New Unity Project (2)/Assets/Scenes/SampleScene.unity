@@ -264,8 +264,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1860019235}
-  - component: {fileID: 1860019234}
   - component: {fileID: 1860019233}
+  - component: {fileID: 1860019234}
   m_Layer: 0
   m_Name: redObj
   m_TagString: Untagged
@@ -302,9 +302,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd3921a4ffe3d4429eed0014a7cbc27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nonValue: 4.2
-  enumName: red
-  myExColor: 3
+  nonValue: 0
+  enumName: cyan
+  myExColor: 12
 --- !u!4 &1860019235
 Transform:
   m_ObjectHideFlags: 0

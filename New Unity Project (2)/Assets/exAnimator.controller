@@ -32,7 +32,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca02dfee7c67aa4c91dc880fbdf2516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  excolor: 2
+  myExColor: 12
+  enumName: cyan
 --- !u!1102 &1102051360873101122
 AnimatorState:
   serializedVersion: 5
