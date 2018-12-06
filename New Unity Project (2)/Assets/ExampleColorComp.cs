@@ -7,6 +7,11 @@ public enum ExampleColor : uint
     blue = 6,
     cyan = 12,
     red = 132,
+
+    //VV the presence of a number with 1 in the 32nd bit will break this...
+    //verylargecolor = 2147483648
+
+
 }
 
 public class ExampleColorComp : MonoBehaviour {
@@ -14,8 +19,10 @@ public class ExampleColorComp : MonoBehaviour {
     [HideInInspector]
     public string enumName = "";
     public ExampleColor myExColor = ExampleColor.blue;
-	// Use this for initialization
-	void Start () {
+    //private ExampleColor _myExColor;    
+    //public ExampleColor myExColor { get { return _myExColor; } set { _myExColor = value; Debug.Log("god is great"); } }
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
